@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titulo {
+    text-align: center;
+    background-color: rgb(153, 255, 221);
+    font-weight: bold;
+}
+.recipes-list {
+    background-color: antiquewhite;
+}
+.recipes-list h2 {
+    text-align: center;
+}
+.description {
+    align-content: center;
+    text-align: center;
+}
+.description img {
+    height: 450px;
+    width: auto;
+}
+.ingredients {
+    background-color: rgb(248, 118, 188);
+}
+.steps {
+    background-color: rgb(244, 184, 72);
+}
+.boton {
+    text-align: center;
+}
+.boton button {
+    background-color: rgb(32, 32, 32);
+}
+.boton a:link {
+    text-decoration: none;
+    color: azure;
+  }
