@@ -35,7 +35,7 @@ body{
     border-bottom: 5px #d0d0d0 inset;
 }
 .description img {
-    height: 450px;
+    height: auto;
     width: 100%;
 }
 .ingredients {
