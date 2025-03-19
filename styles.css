@@ -1,38 +1,74 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
 }
 .titulo {
     text-align: center;
-    background-color: rgb(153, 255, 221);
+    background-color: #12CBC4;
     font-weight: bold;
+    border-bottom: 5px #1289A7 inset;
+    color: white;
+    margin: 0px;
+    padding: 25px;
 }
 .recipes-list {
-    background-color: antiquewhite;
+    width: 100%;
+    background-color: #833471;
+    color: white;
+    margin: 0px;
+    padding:  25px;
+    border-bottom: 5px #6F1E51 inset;
 }
-.recipes-list h2 {
-    text-align: center;
+.recipes-list a:link {
+    text-decoration: none;
+    color: azure;
+}
+.recipes-list a:hover {
+    text-decoration: none;
+    color: #4b1537;
 }
 .description {
     align-content: center;
     text-align: center;
+    margin: 0px;
+    border-bottom: 5px #d0d0d0 inset;
 }
 .description img {
     height: 450px;
-    width: auto;
+    width: 100%;
 }
 .ingredients {
-    background-color: rgb(248, 118, 188);
+    background-color: #833471;
+    border-bottom: 5px #6F1E51 inset;
+    color: white;
+    margin: 0px;
+    padding: 25px;
 }
 .steps {
-    background-color: rgb(244, 184, 72);
+    background-color: #FFC312;
+    border-bottom: 5px #F79F1F inset;
+    color: white;
+    margin: 0px;
+    padding: 25px;
 }
 .boton {
     text-align: center;
+    margin: 0px;
+    padding: 25px;
+    background-color: #EE5A24;
+    border-bottom: 5px #ED4C67 inset;
 }
 .boton button {
-    background-color: rgb(32, 32, 32);
+    background-color: #ED4C67;
+    border: 0px;
+    padding: 10px 20px;
 }
 .boton a:link {
     text-decoration: none;
     color: azure;
+  }
+  .boton a:hover {
+    text-decoration: none;
+    color: #b13a4d;
   }
